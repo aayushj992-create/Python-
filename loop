@@ -1,0 +1,33 @@
+# x=0
+# while x<5:
+#     print(x)
+#     x=x+1
+
+# answer =input("Should I stop")
+# while answer!="yes":
+#     print(answer)
+#     answer=input("Should I stop")
+
+
+day=["sun","mon","tues","wed","thurs","fri","sat"]
+# for d in day:
+#     print(d)
+
+for d in day:
+    if(d=="thurs"):
+        break;
+    print(d)
+
+
+
+for d in day:
+    if(d=="thurs"):
+        continue;
+    print(d)
+
+
+for i,d in enumerate(day):
+    print(i,d)
+
+
+
